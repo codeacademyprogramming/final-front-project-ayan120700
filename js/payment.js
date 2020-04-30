@@ -98,5 +98,48 @@ $(document).ready(function(){
             $('.amount').text($('input:nth-of-type(6)').val() + " " + "AZN")
     })
     
-    
+    //burger-menu
+$('.windows>div:nth-child(1),.b-menu-text:nth-child(1)').click(function(){
+    window.location.href = 'analyzes.html'
+})
+$('.windows>div:nth-child(3),.b-menu-text:nth-child(3)').click(function(){
+    window.location.href = 'branches.html'
+})
+$('.windows>div:nth-child(4),.b-menu-text:nth-child(4)').click(function(){
+    window.location.href = 'symptoms.html'
+})
+
+// Left-nav
+$('.left-windows>div:nth-child(1)').click(function(){
+    window.location.href = 'analyzes.html'
+})
+$('.left-windows>div:nth-child(3)').click(function(){
+    window.location.href = 'branches.html'
+})
+$('.left-windows>div:nth-child(4)').click(function(){
+    window.location.href = 'symptoms.html'
+})
+$('.b-menu-text:nth-child(5)').click(function(){
+    window.location.href = 'about-us.html'
+})
+$('.b-menu-text:nth-child(7)').click(function(){
+    window.location.href = 'about-us.html'
+
+})
+$('.b-menu-text:nth-child(8)').click(function(){
+    window.location.href = 'about-us.html'
+})
+$('.b-menu-text:nth-child(9)').click(function(){
+    window.location.href = 'loyality-cards.html'
+})
+$('.b-menu-text:nth-child(10)').click(function(){
+    window.location.href = 'clinic.html'
+})
+
+$('.b-menu-text:nth-child(11)').click(function(){
+    window.location.href = 'check-up.html'
+})
+$('.b-menu-text:nth-child(12)').click(function(){
+    window.location.href = 'doctors.html'
+})
 })

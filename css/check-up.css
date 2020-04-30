@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.call {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+    font-family: inherit;
+    font-size: 12px;
+    position: absolute;
+    right: 120px;
+    z-index: 100;
+    color: #159ee3;
+    top: 30px;
+}
+
+.fa-phone-volume {
+    font-size: 25px;
+    transform: rotate(-35deg);
+    margin-top: 8px;
+    color: #159ee3;
+}
+
+#call-number {
+    font-size: 25px;
+    color: #159ee3;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.burger-button {
+    position: absolute;
+    right: 40px;
+    z-index: 100;
+    top: 30px;
+    background-color: #159ee3;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.fa-times {
+    color: white;
+    font-size: 23px;
+}
+
+.burger-menu {
+    width: 650px;
+    height: 100%;
+    background-color: #0fa9f0;
+    position: fixed;
+    right: -650px;
+    z-index: 95;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 130px;
+    border-radius: 100%;
+}
+
+.b-menu-text {
+    color: white;
+    width: 250px;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    height: 25px;
+    cursor: pointer;
+}
+
+.b-menu-text:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.chat-click {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    z-index: 100;
+    background-color: #159ee3;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.chat-click:hover .fa-comment-dots {
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+.fa-comment-dots {
+    color: white;
+    font-size: 35px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.connect {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 99;
+    color: white;
+    opacity: 0;
+    right: 30px;
+    bottom: 0;
+}
+
+.connect:hover {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1);
+    transition: .1s;
+}
+
+.message {
+    background-color: orange;
+    font-size: 30px;
+}
+
+.whatsapp {
+    background-color: #25d366;
+    font-size: 35px;
+}
+
+.messenger {
+    background-color: #3b5998;
+    font-size: 35px;
+}
+
+.sa-logo {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.circle {
+    background-color: #34b4f00a;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.blue {
+    width: 650px;
+    height: 650px;
+    transform: scale(1.2);
+    right: -1000px;
+}
+
+.blue-2 {
+    top: 55px;
+    width: 550px;
+    height: 550px;
+    transform: scale(1.2);
+    background-color: #34b4f00e;
+    right: -800px;
+}
+
+.blue-3 {
+    background-color: #34b4f017;
+    width: 500px;
+    height: 500px;
+    top: 90px;
+    right: -600px;
+}
+
+.social {
+    color: rgb(172, 171, 171);
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+.soc {
+    cursor: pointer;
+}
+
+.soc:hover {
+    color: #0fa9f0;
+}
+
+.left-windows {
+    position: fixed;
+    left: 40px;
+    bottom: 80px;
+}
+
+.left-windows>div {
+    width: 70px;
+    height: 72px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.left-windows>div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-image: linear-gradient(to right, #4eb9ee, #0fa9f0);
+}
+
+.left-windows>div:hover .shadow {
+    background-color: #0fd6f069;
+}
+
+.left-windows>div:hover img {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.left-windows>div>img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.shadow {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 25px;
+    height: 25px;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 10px;
+    background-color: rgba(179, 178, 178, 0.384);
+}
+
+.check-up-cards {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 150px;
+}
+
+.check-up-text {
+    text-align: center;
+    color: #159ee3;
+    font-size: 36px;
+    margin-top: 150px;
+}
+
+.check-up-cards>h5 {
+    width: 100%;
+    color: darkslategray;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.packets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.packets>div {
+    cursor: pointer;
+}
+
+.packets>div>img {
+    width: 384px;
+    height: 186px;
+    border-radius: 10px;
+}
+
+.packets>div>h4 {
+    color: #1556e3;
+    font-size: 24px;
+    margin-block-start: 15px;
+}

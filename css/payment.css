@@ -1,14 +1,16 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.home{
+
+.home {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
 }
-.call{
+
+.call {
     display: flex;
     flex-wrap: wrap;
     width: 80px;
@@ -20,13 +22,15 @@ body{
     color: #159ee3;
     top: 30px;
 }
-.fa-phone-volume{
+
+.fa-phone-volume {
     font-size: 25px;
     transform: rotate(-35deg);
     margin-top: 8px;
     color: #159ee3;
 }
-#call-number{
+
+#call-number {
     font-size: 25px;
     color: #159ee3;
     margin-block-end: 0;
@@ -37,7 +41,8 @@ body{
     font-family: inherit;
     font-weight: bold;
 }
-.burger-button{
+
+.burger-button {
     position: absolute;
     right: 40px;
     z-index: 100;
@@ -49,15 +54,18 @@ body{
     border-radius: 100%;
     cursor: pointer;
 }
-.fa-bars{
+
+.fa-bars {
     color: white;
     font-size: 23px;
 }
-.fa-times{
+
+.fa-times {
     color: white;
     font-size: 23px;
 }
-.burger-menu{
+
+.burger-menu {
     width: 650px;
     height: 100%;
     background-color: #0fa9f0;
@@ -69,7 +77,8 @@ body{
     padding-top: 130px;
     border-radius: 100%;
 }
-.b-menu-text{
+
+.b-menu-text {
     color: white;
     width: 250px;
     font-size: 22px;
@@ -79,11 +88,13 @@ body{
     height: 25px;
     cursor: pointer;
 }
-.b-menu-text:hover{
+
+.b-menu-text:hover {
     transform: scale(1.1);
     transition: .5s;
 }
-.chat-click{
+
+.chat-click {
     position: fixed;
     bottom: 60px;
     right: 30px;
@@ -96,64 +107,75 @@ body{
     cursor: pointer;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
-.chat-click:hover .fa-comment-dots{
+
+.chat-click:hover .fa-comment-dots {
     transform: rotate(360deg);
     transition: .5s;
 }
-.fa-comment-dots{
+
+.fa-comment-dots {
     color: white;
     font-size: 35px;
     margin-left: 3px;
     margin-top: 3px;
 }
-.connect{
+
+.connect {
     position: fixed;
     width: 40px;
     height: 40px;
     padding: 10px;
     border-radius: 100%;
     cursor: pointer;
-    z-index: 99;  
+    z-index: 99;
     color: white;
     opacity: 0;
     right: 30px;
     bottom: 0;
 }
-.connect:hover{
+
+.connect:hover {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1);
     transition: .1s;
 }
-.message{
+
+.message {
     background-color: orange;
     font-size: 30px;
 }
-.whatsapp{
+
+.whatsapp {
     background-color: #25d366;
     font-size: 35px;
 }
-.messenger{
+
+.messenger {
     background-color: #3b5998;
     font-size: 35px;
 }
-.sa-logo{
+
+.sa-logo {
     position: absolute;
     left: 0;
     width: 200px;
     padding-top: 30px;
     padding-left: 40px;
 }
-.circle{
+
+.circle {
     background-color: #34b4f00a;
     border-radius: 100%;
     position: absolute;
 }
-.blue{
+
+.blue {
     width: 650px;
     height: 650px;
     transform: scale(1.2);
     right: -1000px;
 }
-.blue-2{
+
+.blue-2 {
     top: 55px;
     width: 550px;
     height: 550px;
@@ -161,31 +183,37 @@ body{
     background-color: #34b4f00e;
     right: -800px;
 }
-.blue-3{
+
+.blue-3 {
     background-color: #34b4f017;
     width: 500px;
     height: 500px;
     top: 90px;
     right: -600px;
 }
-.social{
+
+.social {
     color: rgb(172, 171, 171);
     position: fixed;
     bottom: 20px;
     right: 50px;
 }
-.soc{
+
+.soc {
     cursor: pointer;
 }
-.soc:hover{
+
+.soc:hover {
     color: #0fa9f0;
 }
-.left-windows{
+
+.left-windows {
     position: fixed;
     left: 40px;
     bottom: 80px;
 }
-.left-windows>div{
+
+.left-windows>div {
     width: 70px;
     height: 72px;
     border-radius: 10px;
@@ -194,26 +222,31 @@ body{
     position: relative;
     cursor: pointer;
 }
-.left-windows>div:hover{
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+
+.left-windows>div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     background-image: linear-gradient(to right, #4eb9ee, #0fa9f0);
 }
-.left-windows>div:hover .shadow{
+
+.left-windows>div:hover .shadow {
     background-color: #0fd6f069;
 }
-.left-windows>div:hover img{
+
+.left-windows>div:hover img {
     transform: scale(1.2);
     transition: .5s;
 }
-.left-windows>div>img{
+
+.left-windows>div>img {
     width: 40px;
     height: 40px;
     margin-top: 15px;
     margin-left: 15px;
 }
-.shadow{
+
+.shadow {
     position: absolute;
-    right:0px;
+    right: 0px;
     top: 0px;
     width: 25px;
     height: 25px;
@@ -221,7 +254,8 @@ body{
     border-top-right-radius: 10px;
     background-color: rgba(179, 178, 178, 0.384);
 }
-.payment{
+
+.payment {
     width: 40%;
     margin-left: 30%;
     margin-top: 10%;
@@ -229,7 +263,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.payment-text{
+
+.payment-text {
     width: 100%;
     text-align: center;
     color: #159ee3;
@@ -237,7 +272,8 @@ body{
     font-weight: bold;
     margin-bottom: 50px;
 }
-input{
+
+input {
     height: 32px;
     width: 140px;
     padding: 12px;
@@ -246,17 +282,23 @@ input{
     border: 1px solid lightgray;
     margin-bottom: 20px;
 }
-input:nth-of-type(4),input:nth-of-type(5),input:nth-of-type(6){
+
+input:nth-of-type(4),
+input:nth-of-type(5),
+input:nth-of-type(6) {
     width: 100%;
 }
-::placeholder{
+
+::placeholder {
     color: rgb(163, 162, 162);
 }
+
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-.amount{
+}
+
+.amount {
     width: 100%;
     border: 1px dotted gray;
     height: 50px;
@@ -269,8 +311,9 @@ input::-webkit-inner-spin-button {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.payment-button{
-    background-image: linear-gradient(to right, #0fa9f0,#4eb9ee);
+
+.payment-button {
+    background-image: linear-gradient(to right, #0fa9f0, #4eb9ee);
     height: 20px;
     padding: 20px;
     width: 130px;
@@ -283,20 +326,24 @@ input::-webkit-inner-spin-button {
     margin-left: 380px;
     box-shadow: -2px 8px 20px 0px grey;
 }
-.payment-button:hover{
+
+.payment-button:hover {
     box-shadow: none;
     transition: .5s;
 }
-.amount-active{
+
+.amount-active {
     background-color: #0077b3;
     color: white;
 }
-@media only screen and (max-width: 1250px){
-.left-windows{
-    display: none;
-}
-.payment{
-    width: 80%;
-    margin-left: 10%;
-}
+
+@media only screen and (max-width: 1250px) {
+    .left-windows {
+        display: none;
+    }
+
+    .payment {
+        width: 80%;
+        margin-left: 10%;
+    }
 }

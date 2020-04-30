@@ -84,6 +84,36 @@ for (let i = 0; i < $('.circles>div').length; i++) {
         $('.pic').eq(i).addClass('pic-active');
     })
 }
+$('.circles>div:nth-child(1)').click(function(){
+    $('.pic-text').text('EVİNİZDƏ MÜAYİNƏ XİDMƏTİ')
+    $('.pic-text').css('margin-top','270px')
+    $('.pic-text').css('opacity','1')
+    $('.pic-text').css('transition','2s')
+})
+$('.circles>div:nth-child(2)').click(function(){
+    $('.pic-text').text('LABARATOR XİDMƏTLƏR')
+    $('.pic-text').css('margin-top','270px')
+    $('.pic-text').css('opacity','1')
+    $('.pic-text').css('transition','2s')
+})
+$('.circles>div:nth-child(3)').click(function(){
+    $('.pic-text').text('POLIKLINIK XİDMƏTLƏR')
+    $('.pic-text').css('margin-top','270px')
+    $('.pic-text').css('opacity','1')
+    $('.pic-text').css('transition','1s')
+})
+$('.circles>div:nth-child(4)').click(function(){
+    $('.pic-text').text('AİLƏNİZİN CHECK-UP MÜAYİNƏSİ')
+    $('.pic-text').css('margin-top','270px')
+    $('.pic-text').css('opacity','1')
+    $('.pic-text').css('transition','1s')
+})
+$('.circles>div:nth-child(5)').click(function(){
+    $('.pic-text').text('NİKAH ÖNCƏSİ MÜAYİNƏLƏR')
+    $('.pic-text').css('margin-top','270px')
+    $('.pic-text').css('opacity','1')
+    $('.pic-text').css('transition','1s')
+})
 setTimeout(function(){
     $('.pic-text').text('EVİNİZDƏ MÜAYİNƏ XİDMƏTİ')
     $('.pic-text').css('margin-top','270px')
@@ -359,6 +389,32 @@ $('.windows>div:nth-child(1),.b-menu-text:nth-child(1)').click(function(){
 })
 $('.windows>div:nth-child(3),.b-menu-text:nth-child(3)').click(function(){
     window.location.href = 'branches.html'
+})
+$('.windows>div:nth-child(4),.b-menu-text:nth-child(4)').click(function(){
+    window.location.href = 'symptoms.html'
+})
+$('.b-menu-text:nth-child(5)').click(function(){
+    window.location.href = 'about-us.html'
+})
+$('.b-menu-text:nth-child(7)').click(function(){
+    window.location.href = 'about-us.html'
+
+})
+$('.b-menu-text:nth-child(8)').click(function(){
+    window.location.href = 'about-us.html'
+})
+$('.b-menu-text:nth-child(9)').click(function(){
+    window.location.href = 'loyality-cards.html'
+})
+$('.b-menu-text:nth-child(10)').click(function(){
+    window.location.href = 'clinic.html'
+})
+
+$('.b-menu-text:nth-child(11)').click(function(){
+    window.location.href = 'check-up.html'
+})
+$('.b-menu-text:nth-child(12)').click(function(){
+    window.location.href = 'doctors.html'
 })
 
 

@@ -1,14 +1,16 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.pic-active{
+
+.pic-active {
     z-index: 1;
     transform: scale(1.2);
     transition: 10s;
 }
-.pic-1{
-    background-image:url(../assets/evdeqal-3-1.png);
+
+.pic-1 {
+    background-image: url(../assets/evdeqal-3-1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,8 +22,9 @@ body{
     position: absolute;
     right: 0;
 }
-.pic-2{
-    background-image:url(../assets/lab.jpg);
+
+.pic-2 {
+    background-image: url(../assets/lab.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,8 +36,9 @@ body{
     position: absolute;
     right: 0;
 }
-.pic-3{
-    background-image:url(../assets/doctors.jpg);
+
+.pic-3 {
+    background-image: url(../assets/doctors.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,8 +50,9 @@ body{
     position: absolute;
     right: 0;
 }
-.pic-4{
-    background-image:url(../assets/happy-extended-family-smiling-home_107420-10269.jpg);
+
+.pic-4 {
+    background-image: url(../assets/happy-extended-family-smiling-home_107420-10269.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,8 +64,9 @@ body{
     position: absolute;
     right: 0;
 }
-.pic-5{
-    background-image:url(../assets/marriage.jpg);
+
+.pic-5 {
+    background-image: url(../assets/marriage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,13 +78,15 @@ body{
     position: absolute;
     right: 0;
 }
-.home{
+
+.home {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
-.home-pic{
+
+.home-pic {
     height: 100vh;
     width: 0%;
     float: right;
@@ -87,7 +95,8 @@ body{
     border-bottom-left-radius: 550px;
     position: relative;
 }
-.blue{
+
+.blue {
     background-color: rgba(19, 131, 175, 0.466);
     width: 0%;
     height: 100vh;
@@ -98,7 +107,8 @@ body{
     right: 0;
     z-index: 90;
 }
-.blue-2{
+
+.blue-2 {
     background-color: rgba(30, 141, 185, 0.281);
     width: 0%;
     height: 100vh;
@@ -108,7 +118,8 @@ body{
     top: 0;
     right: 0;
 }
-.pic-text{
+
+.pic-text {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
@@ -118,7 +129,8 @@ body{
     width: 590px;
     margin-block-end: 0;
 }
-.more{
+
+.more {
     color: white;
     margin-left: 250px;
     margin-top: 50px;
@@ -127,11 +139,13 @@ body{
     font-weight: 100;
     cursor: pointer;
 }
-.more:hover .fa-chevron-right{
+
+.more:hover .fa-chevron-right {
     margin-left: 10px;
     transition: .5s;
 }
-.circles{
+
+.circles {
     bottom: 170px;
     left: 250px;
     display: flex;
@@ -139,27 +153,32 @@ body{
     justify-content: space-between;
     position: absolute;
 }
-.circles div{
+
+.circles div {
     width: 7px;
     height: 7px;
     border-radius: 100%;
     border: 1px solid white;
     cursor: pointer;
 }
-.circle-active{
+
+.circle-active {
     background-color: white;
 }
-.circle-active2{
+
+.circle-active2 {
     background-color: white;
 }
-.pic-name{
+
+.pic-name {
     display: flex;
     position: absolute;
     right: 250px;
     bottom: 165px;
     color: white;
 }
-.line{
+
+.line {
     height: 8px;
     margin-block-end: 0;
     margin-block-start: 0;
@@ -167,19 +186,23 @@ body{
     width: 70px;
     border-bottom: .5px solid white;
 }
-.social{
+
+.social {
     color: rgba(255, 255, 255, 0.555);
     position: absolute;
     bottom: 20px;
     right: 50px;
 }
-.soc{
+
+.soc {
     cursor: pointer;
 }
-.soc:hover{
+
+.soc:hover {
     color: white;
 }
-.call{
+
+.call {
     display: flex;
     flex-wrap: wrap;
     width: 80px;
@@ -191,12 +214,14 @@ body{
     color: white;
     top: 30px;
 }
-.fa-phone-volume{
+
+.fa-phone-volume {
     font-size: 25px;
     transform: rotate(-35deg);
     margin-top: 8px;
 }
-#call-number{
+
+#call-number {
     font-size: 25px;
     color: white;
     margin-block-end: 0;
@@ -207,7 +232,8 @@ body{
     font-family: inherit;
     font-weight: bold;
 }
-.burger-button{
+
+.burger-button {
     position: absolute;
     right: 40px;
     z-index: 100;
@@ -219,17 +245,20 @@ body{
     border-radius: 100%;
     cursor: pointer;
 }
-.fa-bars{
+
+.fa-bars {
     color: blue;
     font-size: 23px;
     transition: 2s;
 }
-.fa-times{
+
+.fa-times {
     color: blue;
     font-size: 23px;
     transition: 2s;
 }
-.burger-menu{
+
+.burger-menu {
     width: 650px;
     height: 555px;
     background-color: #0fa9f0;
@@ -241,7 +270,8 @@ body{
     padding-top: 130px;
     border-radius: 100%;
 }
-.b-menu-text{
+
+.b-menu-text {
     color: white;
     width: 250px;
     font-size: 22px;
@@ -251,11 +281,13 @@ body{
     height: 25px;
     cursor: pointer;
 }
-.b-menu-text:hover{
+
+.b-menu-text:hover {
     transform: scale(1.1);
     transition: .5s;
 }
-.chat-click{
+
+.chat-click {
     position: absolute;
     bottom: 60px;
     right: 30px;
@@ -268,50 +300,59 @@ body{
     cursor: pointer;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
-.chat-click:hover .fa-comment-dots{
+
+.chat-click:hover .fa-comment-dots {
     transform: rotate(360deg);
     transition: .5s;
 }
-.fa-comment-dots{
+
+.fa-comment-dots {
     color: white;
     font-size: 35px;
     margin-left: 3px;
     margin-top: 3px;
 }
-.connect{
+
+.connect {
     position: absolute;
     width: 40px;
     height: 40px;
     padding: 10px;
     border-radius: 100%;
     cursor: pointer;
-    z-index: 99;  
+    z-index: 99;
     color: white;
     opacity: 0;
     right: 30px;
     bottom: 0;
 }
-.connect:hover{
+
+.connect:hover {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1);
     transition: .1s;
 }
-.message{
+
+.message {
     background-color: orange;
     font-size: 30px;
 }
-.whatsapp{
+
+.whatsapp {
     background-color: #25d366;
     font-size: 35px;
 }
-.messenger{
+
+.messenger {
     background-color: #3b5998;
     font-size: 35px;
 }
-.sa-logo{
+
+.sa-logo {
     padding-top: 30px;
     padding-left: 40px;
 }
-.windows{
+
+.windows {
     width: 375px;
     height: 380px;
     position: absolute;
@@ -321,9 +362,10 @@ body{
     justify-content: space-between;
     z-index: 95;
 }
-.windows>div{
+
+.windows>div {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
-    width:180px;
+    width: 180px;
     height: 180px;
     border-radius: 20px;
     background-color: #0fa9f0;
@@ -332,11 +374,13 @@ body{
     opacity: 0;
     margin-top: -10px;
 }
-.windows>div>img{
+
+.windows>div>img {
     margin-left: 20px;
     margin-top: 20px;
 }
-.windows>div>p{
+
+.windows>div>p {
     color: white;
     font-size: 22px;
     font-weight: bold;
@@ -344,13 +388,15 @@ body{
     margin-left: 25px;
     margin-block-end: 0;
 }
-.windows>div:hover .shadow{
+
+.windows>div:hover .shadow {
     width: 50px;
     height: 50px;
     opacity: .5;
     transition: .5s;
 }
-.shadow{
+
+.shadow {
     position: absolute;
     right: 0;
     top: 0;
@@ -360,25 +406,36 @@ body{
     border-top-right-radius: 20px;
     background-color: #0fd6f077;
 }
-@media only screen and (max-width: 1000px){
-.home-pic,.blue,.blue-2{
-    display: none;
-}
-.call,#call-number,.fa-phone-volume{
-      color: #159ee3;
-}
-.fa-bars{
-    color: white;
-}
-.burger-button{
-    background-color: #159ee3;
-}
-.burger-menu{
-    width: 380px;
-}
-.windows{
-    transform: scale(1.2);
-    transition: 1s;
-}
+
+@media only screen and (max-width: 1000px) {
+
+    .home-pic,
+    .blue,
+    .blue-2 {
+        display: none;
+    }
+
+    .call,
+    #call-number,
+    .fa-phone-volume {
+        color: #159ee3;
+    }
+
+    .fa-bars {
+        color: white;
+    }
+
+    .burger-button {
+        background-color: #159ee3;
+    }
+
+    .burger-menu {
+        width: 380px;
+    }
+
+    .windows {
+        transform: scale(1.2);
+        transition: 1s;
+    }
 
 }

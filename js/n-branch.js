@@ -73,9 +73,89 @@ $('.connect').mouseleave(function(){
     $('.connect').css('opacity','0')
 });
 $('.fa-map-marker-alt').click(function(){
-    $('.branch-menu').toggleClass('branch-active')
+    $('.branch-menu').toggleClass('active')
+})
+$('.left-windows>div:nth-child(1)').click(function(){
+    window.location.href = 'analyzes.html'
 })
 $('.branch-menu>h4:nth-child(1)').click(function(){
     window.location.href = "n-branch.html"
+})
+
+for (let a = 0; a < $('.nav>h4').length; a++) {
+    $('.nav>h4').eq(a).click(function(){
+        for (let b = 0; b < $('.nav>h4').length; b++) {
+            $('.nav>h4').eq(b).removeClass('nav-active')         
+        }
+        $('.nav>h4').eq(a).addClass('nav-active')
+    })
+}
+
+$('.nav>h4:nth-child(1)').click(function(){
+    $('.adress').css('display','block')
+    $('.adress').css('display','flex')
+    $('.services').css('display','none')
+    $('.doctors').css('display','none')
+})
+$('.nav>h4:nth-child(2)').click(function(){
+    $('.adress').css('display','none')
+    $('.services').css('display','block')
+    $('.services').css('display','flex')
+    $('.doctors').css('display','none')
+})
+$('.nav>h4:nth-child(3)').click(function(){
+    $('.adress').css('display','none')
+    $('.services').css('display','none')
+    $('.doctors').css('display','block')
+    $('.doctors').css('display','flex')
+})
+
+$('.back').click(function(){
+    window.location.href = 'branches.html'
+})
+
+// left nav
+$('.left-windows>div:nth-child(1)').click(function(){
+    window.location.href = 'analyzes.html'
+})
+$('.left-windows>div:nth-child(3)').click(function(){
+    window.location.href = 'branches.html'
+})
+$('.left-windows>div:nth-child(4)').click(function(){
+    window.location.href = 'symptoms.html'
+})
+
+//burger-menu
+$('.windows>div:nth-child(1),.b-menu-text:nth-child(1)').click(function(){
+    window.location.href = 'analyzes.html'
+})
+$('.windows>div:nth-child(3),.b-menu-text:nth-child(3)').click(function(){
+    window.location.href = 'branches.html'
+})
+$('.windows>div:nth-child(4),.b-menu-text:nth-child(4)').click(function(){
+    window.location.href = 'symptoms.html'
+})
+$('.b-menu-text:nth-child(5)').click(function(){
+    window.location.href = 'about-us.html'
+})
+$('.b-menu-text:nth-child(7)').click(function(){
+    window.location.href = 'about-us.html'
+
+})
+$('.b-menu-text:nth-child(8)').click(function(){
+    window.location.href = 'about-us.html'
+})
+$('.b-menu-text:nth-child(9)').click(function(){
+    window.location.href = 'loyality-cards.html'
+})
+$('.b-menu-text:nth-child(10)').click(function(){
+    window.location.href = 'clinic.html'
+})
+
+$('.b-menu-text:nth-child(11)').click(function(){
+    window.location.href = 'check-up.html'
+})
+$('.b-menu-text:nth-child(12)').click(function(){
+    window.location.href = 'doctors.html'
 })
 })
