@@ -3,6 +3,15 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(/assets/Gilroy/Gilroy-Medium.otf);
+}
+
+* {
+    font-family: Gilroy;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -263,7 +272,7 @@ body {
 
 .about-text {
     color: #159ee3;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
     margin-top: 150px;
@@ -272,7 +281,7 @@ body {
 .back {
     color: #159ee3;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
     left: 0;
     top: 20px;
@@ -285,7 +294,7 @@ body {
     border: 1px solid lightgray;
     border-radius: 5px;
     color: rgb(121, 121, 121);
-    font-size: 20px;
+    font-size: 18px;
     height: 60px;
     margin-top: 50px;
 }
@@ -323,7 +332,7 @@ body {
 .management>h4 {
     color: rgb(73, 73, 73);
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     margin-left: 20px;
     margin-block-start: 0;
@@ -346,7 +355,7 @@ body {
 .career>h5 {
     color: rgb(73, 73, 73);
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -355,7 +364,7 @@ body {
 
 .vacations-text {
     color: #159ee3;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
     margin-top: 80px;
@@ -435,14 +444,14 @@ body {
 
 .new-vac>h4 {
     color: #159ee3;
-    font-size: 26px;
+    font-size: 24px;
     margin-left: 10%;
 }
 
 .new-vac>h5 {
     line-height: 28px;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(49, 49, 49);
     margin-left: 10%;
 }

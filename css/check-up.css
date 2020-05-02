@@ -3,6 +3,15 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(/assets/Gilroy/Gilroy-Medium.otf);
+}
+
+* {
+    font-family: Gilroy;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -264,7 +273,7 @@ body {
 .check-up-text {
     text-align: center;
     color: #159ee3;
-    font-size: 36px;
+    font-size: 34px;
     margin-top: 150px;
 }
 
@@ -272,7 +281,7 @@ body {
     width: 100%;
     color: darkslategray;
     line-height: 28px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
 }
 
@@ -295,6 +304,11 @@ body {
 
 .packets>div>h4 {
     color: #1556e3;
-    font-size: 24px;
+    font-size: 22px;
     margin-block-start: 15px;
+}
+@media only screen and (max-width: 1250px) {
+    .left-windows {
+        display: none;
+    }
 }

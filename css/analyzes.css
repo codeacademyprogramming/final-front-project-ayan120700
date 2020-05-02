@@ -3,6 +3,15 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(/assets/Gilroy/Gilroy-Medium.otf);
+}
+
+* {
+    font-family: Gilroy;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -292,5 +301,10 @@ input {
     .burger-menu {
         width: 380px;
         padding-top: 100px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .analyzes{
+        margin-top: 25%;
     }
 }

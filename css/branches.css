@@ -3,6 +3,15 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(/assets/Gilroy/Gilroy-Medium.otf);
+}
+
+* {
+    font-family: Gilroy;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -277,8 +286,8 @@ body {
 
 .office-img>h4 {
     width: 270px;
-    color: #155dca;
-    font-size: 22px;
+    color: #159ee3;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -286,7 +295,7 @@ body {
     width: 100%;
     text-align: center;
     color: #159ee3;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     margin-bottom: 50px;
 }
@@ -322,7 +331,7 @@ body {
     display: none;
 }
 
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1250px) {
     .left-windows {
         display: none;
     }
@@ -331,5 +340,25 @@ body {
         height: 1200px;
         width: 60%;
         margin-left: 20%;
+    }
+    .branches-text{
+        margin-block-end: 0;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .branches{
+        margin-top: 15%;
+    }
+    .branches-text{
+        margin-bottom: 40px;
+    }
+    .office-img{
+        margin-left: 18%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .branches{
+        margin-top: 40%;
     }
 }

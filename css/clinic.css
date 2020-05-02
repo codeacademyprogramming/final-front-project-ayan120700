@@ -162,6 +162,15 @@ body {
     padding-left: 40px;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(/assets/Gilroy/Gilroy-Medium.otf);
+}
+
+* {
+    font-family: Gilroy;
+}
+
 .circle {
     background-color: #34b4f00a;
     border-radius: 100%;
@@ -471,4 +480,13 @@ body {
     width: 159px;
     font-size: 18px;
     font-weight: 100;
+}
+
+@media only screen and (max-width: 1250px) {
+    .left-windows {
+        display: none;
+    }
+    .services>div{
+        margin-bottom: 20px;
+    }
 }

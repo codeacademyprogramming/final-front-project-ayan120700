@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 $('.home-pic').css('width','65%')
-$('.home-pic').css('transition','1s')
+$('.home-pic').css('transition','1.3s')
 $('.blue').css('width','70%')
-$('.blue').css('transition','1s')
+$('.blue').css('transition','1.3s')
 $('.blue-2').css('width','75%')
-$('.blue-2').css('transition','1s')
+$('.blue-2').css('transition','1.3s')
 
 $('.burger-button').click(function(){
     if($('.burger-button>i').hasClass('fa-bars')){

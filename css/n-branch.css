@@ -3,6 +3,15 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(/assets/Gilroy/Gilroy-Medium.otf);
+}
+
+* {
+    font-family: Gilroy;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -295,7 +304,7 @@ body {
 }
 
 .branch-menu>h4 {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-weight: 100;
     padding-left: 20px;
@@ -317,14 +326,14 @@ body {
     width: 100%;
     text-align: center;
     color: #159ee3;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     margin-bottom: 50px;
     position: relative;
 }
 
 .fa-map-marker-alt {
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 10px;
     cursor: pointer;
 }
@@ -334,7 +343,7 @@ body {
     left: 0;
     bottom: -20px;
     z-index: 999;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -352,7 +361,7 @@ body {
     text-align: center;
     color: gray;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     border-left: 1px solid lightgray;
     cursor: pointer;
@@ -383,12 +392,12 @@ body {
 
 .branch-name {
     color: #159ee3;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .branch-adress {
     color: gray;
-    font-size: 18px;
+    font-size: 16px;
     width: 300px;
 }
 
@@ -438,7 +447,7 @@ iframe {
 .services>div>h5 {
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-top: 20px;
@@ -468,7 +477,7 @@ iframe {
 
 .car-text {
     color: white;
-    font-size: 28px;
+    font-size: 26px;
     position: absolute;
     bottom: 0px;
     margin-block-end: 0;
@@ -503,7 +512,7 @@ iframe {
 .doctors>div>h4 {
     color: #157fe3;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin-block-start: 15px;
     margin-block-end: 0;
@@ -512,7 +521,7 @@ iframe {
 .doctors>div>h5 {
     color: gray;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin-block-start: 7px;
     font-weight: 100;
 }
@@ -537,5 +546,8 @@ iframe {
     .adress {
         display: block;
         height: 1600px;
+    }
+    .branches{
+        margin-top: 25%;
     }
 }

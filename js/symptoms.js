@@ -209,15 +209,17 @@ $('#right-l-back').hover(function(){
     $('.legs-back').hide();
 })
 
-$('.part').click(function(){
+$('.part,.ilness-button').click(function(){
     $('.symptoms-name>h5').css('display','none')
     $('.parts-of-body').css('display','none')
     $('.ilness').css('display','block')
+    $('.ilness-button').css('display','none')
 })
 $('.button').click(function(){
     $('.symptoms-name>h5').css('display','block')
     $('.parts-of-body').css('display','block')
     $('.ilness').css('display','none')
+    $('.ilness-button').css('display','block')
 })
 $('.kind-of-ilness>div>').click(function(){
     $('.ilness').css('display','none')
@@ -232,4 +234,23 @@ $('.back').click(function(){
     $('.symptoms-name>h4').text('Simptomlar')
 
 })
+for (let a = 0; a < $('u').length; a++) {
+    
+    $('u').eq(a).click(function(){
+        $('.cancel').eq(a).removeClass('c-active')
+        $('.cancel').eq(a).css('color','#159ee3')
+        $('.cancel').eq(a).css('font-size','15px')
+        $('.cancel').eq(a).css('margin-left','5px')
+        $('u').eq(a).css('margin-right','0')
+        $('u').eq(a).css('color','black')
+    })
+}
+for (let b = 0; b < $('.cancel').length; b++) {
+    $('.cancel').eq(b).click(function(){
+        $('.cancel').eq(b).addClass('c-active')
+        $('u').eq(b).css('margin-right','20px')
+        $('u').eq(b).css('color','grey')
+    })
+}
+
 })
